@@ -17,7 +17,6 @@
 #include <iomanip> //for std::setw()/setfill()
 #include <stdlib.h>
 
-#include "become_daemon.h"
 #include <sys/stat.h>
 
 
