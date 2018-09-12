@@ -46,7 +46,7 @@ func handleConn(c net.Conn) {
 
 	input := bufio.NewScanner(c)
 	for input.Scan() {
-		messages <- who + ": " + input.Text() + "\t" + time.Now().Format("17:02:02")
+		messages <- who + ": " + input.Text() + "\t" + time.Now().Format("15:04:05")
 	}
 
 	leaving <- ch
